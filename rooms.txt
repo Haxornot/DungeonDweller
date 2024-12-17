@@ -1,0 +1,53 @@
+1
+The starting room: a room with a weak monster.
+Wooden Sword
+Zombie;20;5
+2 3 -1 5
+
+2
+Medic room with a healing potion.
+Health Potion
+None;0;0
+-1 1 -1 4
+
+3
+A dark chamber with barely any light visible.
+Shield
+Stormtrooper;25;7
+1 -1 -1 7
+
+4
+a bland room with nothing of particular interest.
+None
+None;0;0
+2 5 -1 6
+
+5
+Central room with many different doors to navigate through.
+None
+None;0;0
+4 7 1 8
+
+6
+Space like room with a strong monster inside.
+None
+Thanos;35;10
+4 8 -1 -1
+
+7
+A magical room filled with many cursed objects.
+Inverted Spear of Heaven
+Gojo (Sorcerer);45;12
+5 9 3 -1
+
+8
+A calm room that will help you recover your heatlh before facing your toughest opponent.
+Health Potion
+None;0;0
+6 9 5 -1
+
+9
+Strong aura is exhibited from the villain inside the room.
+None
+Voldemort;50;15
+7 -1 8 -1
