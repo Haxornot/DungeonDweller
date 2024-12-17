@@ -19,7 +19,6 @@ int main() {
     printf(" - inventory   : Check the items in your inventory.\n");
     printf(" - pickup      : Pick up an item in the current room (if available).\n");
     printf(" - attack      : Attack the villian in the current room.\n");
-    printf(" - use potion  : Use a health potion to recover health.\n");
     printf(" - move <dirextion>  : Move in a direction (e.g., 'move up', 'move down', 'move left', 'move right').\n");
     printf(" - look        : Inspect the current room for details, including villians and items.\n");
     printf(" - save        : Save your game progress to a file.\n");
@@ -29,7 +28,7 @@ int main() {
     printf("\nYou start at Room 1. Good luck, adventurer!\n");
 
     
-    printf("Commands: stats, inventory, pickup, attack, use potion, move <dir>, look, save, load, exit.\n");
+    printf("Commands: stats, inventory, pickup, attack, move <dir>, look, save, load, exit.\n");
 
     gameLoop(&player, rooms);
     return 0;
@@ -118,7 +117,7 @@ void handleCommand(char *command, Player *player, Room **currentRoom, Room rooms
 // itemeffexts
 void applyItemEffect(Player *player, const char *item) {
     if (strcmp(item, "None") == 0 || strlen(item) == 0) {
-        printf("No items to pick up.\n");
+        printf("No items to u up.\n");
     } else {
         if (player->inventoryCount < INVENTORY_SIZE) {
             strcpy(player->inventory[player->inventoryCount], item);
